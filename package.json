@@ -1,0 +1,46 @@
+{
+    "name": "webpack-typescript-starter",
+    "version": "0.0.1",
+    "description": "A simple Webpack starter with TypeScript transpilation",
+    "scripts": {
+        "serve": "webpack-dev-server --progress --color",
+        "build": "webpack -w",
+        "build:prod": "cross-env NODE_ENV=production webpack",
+        "test": "karma start"
+    },
+    "keywords": [
+        "webpack",
+        "typescript"
+    ],
+    "author": "Semyon Danilov",
+    "license": "LGPL",
+    "devDependencies": {
+        "@types/node": "9.6.5",
+        "@types/jquery": "3.3.31",
+        "cross-env": "5.1.4",
+        "html-webpack-plugin": "3.2.0",
+        "source-map-loader": "0.2.3",
+        "ts-loader": "4.2.0",
+        "tslint": "5.9.1",
+        "tslint-loader": "3.6.0",
+        "typescript": "2.8.1",
+        "uglifyjs-webpack-plugin": "1.2.4",
+        "less": "3.10.3",
+        "less-loader": "5.0.0",
+        "expose-loader": "0.7.5",
+        "style-loader": "1.0.0",
+        "css-loader": "3.2.0",
+        "postcss-loader": "3.0.0",
+        "raw-loader": "3.1.0",
+        "autoprefixer": "9.6.1",
+        "webpack": "4.41.0",
+        "webpack-cli": "3.3.9",
+        "webpack-dev-server": "3.8.2",
+        "webpack-merge": "4.1.2"
+    },
+    "dependencies": {
+        "bootstrap": "4.3.1",
+        "popper.js": "1.14.7",
+        "jquery": "3.4.1"
+    }
+}
